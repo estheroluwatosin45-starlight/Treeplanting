@@ -386,10 +386,6 @@ hr{
         height: 400px;
         margin: 20px;
     }
-
-    .step{
-     
-    }
     .how, .how-2{
         flex-direction: column;
         gap: 30px;

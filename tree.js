@@ -6,6 +6,8 @@ const navlinks = document.querySelector('.nav-links')
         navlinks.classList.toggle('mobile-menu')
     })
 
+
+    
 // pledge count
 let count = 0
 
