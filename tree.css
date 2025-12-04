@@ -49,7 +49,7 @@ a{
 }
 .hero{
     background-image: linear-gradient(rgb(0,0,0,0.4),
-    rgb(139,134,134,0)) ,url(../treeplanting/tree1\ \(2\).jpg);
+    rgb(139,134,134,0)) ,url(tree1\ \(2\).jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
