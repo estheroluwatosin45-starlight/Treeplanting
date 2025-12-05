@@ -261,7 +261,7 @@ img:hover{
 .contact{
     border: 3px solid var(--primary-color);
     width: min-content;
-    height: 70vh;
+    height: min-content;
     border-radius: 20px;
     padding: 40px 20px 20px 20px;
     margin: 40px;
@@ -415,12 +415,6 @@ hr{
     .image{
         margin: 0 0px;
     }
-
-    .img-1{
-        display: grid;
-        grid-column: 3;
-        grid-row: 2;
-    }
     .pledge{
         margin: 50px;
         padding: 0;
@@ -434,6 +428,17 @@ hr{
         flex-direction: column;
         gap: 30px;
     }
+    .how{
+        
+    }
+    .how-1{
+        width: 350px;
+        height: 400px;
+    }
+    .how-1 img{
+        width: 350px;
+        height: 250px;
+    }
 
     .contact-text{
         margin: 40px;
@@ -444,7 +449,7 @@ hr{
     }
     
    .contact{
-    margin: 40px;
+    margin: 70px;
     padding-bottom: 20px;
     }
 
@@ -456,7 +461,7 @@ hr{
     }
 
     .copywrite{
-        padding: 0;
+        padding: 10px;
     }
 }
 
