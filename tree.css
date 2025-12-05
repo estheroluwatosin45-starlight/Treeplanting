@@ -113,7 +113,7 @@ a{
     display: flex;
     gap: 40px;
     padding: 60px;
-    background-color: rgba(241, 217, 217, 0.11) ;
+    background-color: rgba(53, 8, 255, 0.11) ;
     margin-bottom: 20px;
     border-radius: 20px;
     box-shadow: 10px,5px,5px,5px rgba( 0,0,0, 0.1);
@@ -150,7 +150,7 @@ img:hover{
 .img-2{
     padding-top: 10px;
 } 
-/* Gallary section starts */
+/* Gallary section ends */
 
 /* pledge section starts */
 .pledge{ 
@@ -411,14 +411,20 @@ hr{
     .why-1 img{
         padding-bottom: 10px;
         align-content: center;
+        overflow: hidden;
     }
 
     .image{
-        margin: 0 30px;
+        overflow: hidden;
+        margin: 0 35px;
         padding-bottom: 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
+        align-items: center;
+    }
+    .img-1{
+    gap: 5px;
     }
     .pledge{
         margin: 50px;
@@ -452,7 +458,8 @@ hr{
     
    .contact{
     height: 65vh;
-    margin: 70px;
+    margin: 50px;
+    margin-bottom: 40px;
     padding-bottom: 20px;
     }
 
