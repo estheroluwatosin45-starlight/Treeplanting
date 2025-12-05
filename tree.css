@@ -144,6 +144,7 @@ img:hover{
 }
 .img-1{
     display: flex;    
+    flex-wrap: wrap;
     gap: 20px;
 }
 .img-2{
@@ -413,7 +414,11 @@ hr{
     }
 
     .image{
-        margin: 0 0px;
+        margin: 0 30px;
+        padding-bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
     }
     .pledge{
         margin: 50px;
@@ -427,9 +432,6 @@ hr{
     .how, .how-2{
         flex-direction: column;
         gap: 30px;
-    }
-    .how{
-        
     }
     .how-1{
         width: 350px;
@@ -449,6 +451,7 @@ hr{
     }
     
    .contact{
+    height: 65vh;
     margin: 70px;
     padding-bottom: 20px;
     }
