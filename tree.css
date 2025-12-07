@@ -4,6 +4,9 @@
     box-sizing: border-box;
     list-style: none;
 }
+body{
+    margin: 0;
+}
 
 :root{
     --primary-color: #658C58;
@@ -416,7 +419,7 @@ hr{
 
     .image{
         overflow: hidden;
-        margin: 0 35px;
+        margin: 0 45px;
         padding-bottom: 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -458,7 +461,7 @@ hr{
     
    .contact{
         height: 450px;
-        margin: 50px;
+        margin: 30px;
         margin-bottom: 40px;
         padding-bottom: 20px;
     }
